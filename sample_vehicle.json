@@ -1,0 +1,16 @@
+{
+  "submitted_by": "user_123",
+  "timestamp": "2026-05-19T12:00:00Z",
+  "vehicle": {
+    "vin": "1HGCM82633A004352",
+    "year": 2018,
+    "make": "Honda",
+    "model": "Accord",
+    "trim": "EX-L",
+    "mileage": 45000,
+    "asking_price": 17995,
+    "location": { "zip": "33060", "lat": 26.12345, "lng": -80.12345 },
+    "notes": "Good condition, single owner"
+  },
+  "meta": { "request_id": "req_abc_001", "client_version": "1.0.0" }
+}
