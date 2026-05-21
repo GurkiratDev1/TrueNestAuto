@@ -284,3 +284,20 @@ npm start
 - Add full vehicle normalization and lookup
 - Expand SSE events with structured analytics data
 - Add automated tests for API and UI flows
+
+---
+
+## Time Spent
+
+I spent approximately 6–7 hours completing this task end-to-end. 
+
+This included:
+- Setting up the Next.js project and PostgreSQL database
+- Implementing the submission API with validation (Zod) and idempotency handling
+- Designing and applying database migrations
+- Building the SSE-based job streaming mechanism with simulated worker processing
+- Developing the frontend flow for VIN/JSON input and real-time dashboard updates
+- Debugging edge cases (invalid JSON handling, SSE parsing issues, and PowerShell curl quirks)
+- Performing end-to-end testing via UI and curl, including idempotency and streaming validation
+
+Additional time was spent ensuring the implementation aligns closely with the provided technical specification and behaves reliably under different input scenarios.
